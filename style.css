@@ -1,0 +1,16 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 4px;
+}
+
+.field {
+    text-align: center;
+    height: 350px;
+    width: 150px;
+    border: 5px solid black;
+}
+
