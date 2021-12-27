@@ -75,7 +75,7 @@ const left = () => {
 }
 const isInBounds = () => {
     if((locationRow > fieldArr.length || locationRow < 0) ||
-      (locationColumn > fieldArr[0].length || locationColumn < 0)) { 
+      (locationColumn > fieldArr[0].length - 1 || locationColumn < 0)) { 
           playing = false;
           return false } else { return true }
  }
